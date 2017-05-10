@@ -2,15 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:gravity="center"
+    android:background="#E6E6E6"
+    android:id="@+id/pantalla">
     <ImageView
-        android:layout_width="422dp"
-        android:layout_height="318dp"
+        android:layout_width="419dp"
+        android:layout_height="244dp"
         android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
         android:src="@drawable/logo"
-        android:layout_marginBottom="0px"
-        android:layout_marginLeft="85px" />
+        android:alpha="1"
+        android:layout_weight="0.15" />
 </LinearLayout>
