@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.inicio);
         logo = (ImageView) findViewById(R.id.imageView);
         aparecerLogo();
+
     }
     private void aparecerLogo() {
         Animation alpha, alpha2;
