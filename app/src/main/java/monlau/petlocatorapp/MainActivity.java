@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.inicio);
         logo = (ImageView) findViewById(R.id.imageView);
         logoAppAnimation();
-        esperarYCerrar(15000);
+        esperarYCerrar(7000);
     }
 
     private void logoAppAnimation() {

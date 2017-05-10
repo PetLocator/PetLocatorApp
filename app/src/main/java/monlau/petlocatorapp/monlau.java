@@ -1,5 +1,7 @@
 package monlau.petlocatorapp;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.animation.Animation;
@@ -15,13 +17,13 @@ public class monlau extends AppCompatActivity {
         setContentView(R.layout.activity_monlau);
         logo = (ImageView) findViewById(R.id.imageView);
         //logoAppAnimation();
-
+        esperarYCerrar(5000);
     }
 
     private void logoAppAnimation() {
         //Variables
         Animation fadeIn, fadeOut;
-        AnimationSet animset = new AnimationSet(true);
+        AnimationSet animset2 = new AnimationSet(true);
         //Igualamos las variables
         fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
         fadeOut = AnimationUtils.loadAnimation(this, R.anim.fade_out);
@@ -31,9 +33,22 @@ public class monlau extends AppCompatActivity {
         //Este sirve para que la animacion espere un tiempo
         fadeOut.setStartOffset(4500);
         //Añadir animaciones al Animation Set
-        animset.addAnimation(fadeIn);
-        animset.addAnimation(fadeOut);
+        animset2.addAnimation(fadeIn);
+        animset2.addAnimation(fadeOut);
         //Empezar
-        logo.startAnimation(animset);
+        logo.startAnimation(animset2);
+    }
+    private void enviarLogin(){
+        Intent intent = new Intent(monlau.this, MainActivity.class);
+        startActivity(intent);
+    }
+    public void esperarYCerrar(int milisegundos) {
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                // acciones que se ejecutan tras los milisegundos
+                enviarLogin();
+            }
+        }, milisegundos);
     }
 }
