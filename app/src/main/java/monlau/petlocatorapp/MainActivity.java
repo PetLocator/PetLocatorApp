@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void enviarLogin(){
-        Intent intent = new Intent(MainActivity.this, login.class);
+        Intent intent = new Intent(MainActivity.this, login_register.class);
         startActivity(intent);
     }
     public void esperarYCerrar(int milisegundos) {

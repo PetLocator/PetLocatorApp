@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/eg_wallpaper"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true">
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="4%"
+            android:alpha="1"
+            android:hint="Su nombre"
+            android:inputType="text" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="15%"
+            android:alpha="1"
+            android:inputType="textPassword" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="25%"
+            android:alpha="1"
+            android:inputType="textPassword" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="36%"
+            android:alpha="1"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="47%"
+            android:alpha="1"
+            android:inputType="text" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="57%"
+            android:alpha="1"
+            android:inputType="text" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="68%"
+            android:alpha="1"
+            android:inputType="phone" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginTopPercent="79%"
+            android:alpha="1"
+            android:inputType="textPostalAddress" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_widthPercent="60%"
+            app:layout_heightPercent="15%"
+            android:text="DARSE DE ALTA"
+            android:textSize="20dp"
+            app:layout_marginLeftPercent="22%"
+            app:layout_marginTopPercent="87%"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>

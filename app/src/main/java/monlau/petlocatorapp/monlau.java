@@ -41,6 +41,7 @@ public class monlau extends AppCompatActivity {
     private void enviarLogin(){
         Intent intent = new Intent(monlau.this, MainActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.trans_fadein, R.anim.fade_out);
     }
     public void esperarYCerrar(int milisegundos) {
         Handler handler = new Handler();

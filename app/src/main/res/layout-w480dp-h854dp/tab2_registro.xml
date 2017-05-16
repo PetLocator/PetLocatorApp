@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0f4284"
+    android:gravity="center">
+ <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp">
+ <ImageView
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:src="@drawable/registro2"
+     android:layout_marginTop="30dp"
+     android:layout_marginLeft="0dp"
+     android:alpha="1" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="70dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_nombre" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="107dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_apellido" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="145dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_user" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="190dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_pass" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="250dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_repass" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="295dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_mail" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="350dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_phone" />
+ <EditText
+     android:layout_width="180dp"
+     android:layout_height="30dp"
+     android:background="@drawable/barra"
+     android:layout_marginTop="400dp"
+     android:layout_marginLeft="100dp"
+     android:id="@+id/et_dir" />
+   <ImageButton
+       android:layout_width="180dp"
+       android:layout_height="60dp"
+       android:background="@drawable/reg"
+       android:layout_marginTop="470dp"
+       android:layout_marginLeft="80dp"
+       android:onClick="registro" />
+  </RelativeLayout>
+ </ScrollView>
+</RelativeLayout>

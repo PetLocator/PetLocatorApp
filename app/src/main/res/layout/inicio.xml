@@ -7,8 +7,8 @@
     android:background="#E6E6E6"
     android:id="@+id/pantalla">
     <ImageView
-        android:layout_width="301dp"
-        android:layout_height="244dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/imageView"
         android:src="@drawable/logo"
         android:alpha="1" />

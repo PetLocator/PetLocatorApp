@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_wallpaper"
+        >
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_heightPercent="12%"
+            app:layout_widthPercent="70%"
+            app:layout_marginLeftPercent="17%"
+            app:layout_marginTopPercent="51%"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_heightPercent="12%"
+            app:layout_widthPercent="70%"
+            app:layout_marginLeftPercent="17%"
+            app:layout_marginTopPercent="68%"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            app:layout_heightPercent="12%"
+            app:layout_widthPercent="40%"
+            app:layout_marginLeftPercent="30%"
+            app:layout_marginTopPercent="83%"/>
+
+    </android.support.percent.PercentRelativeLayout>
+</RelativeLayout>
