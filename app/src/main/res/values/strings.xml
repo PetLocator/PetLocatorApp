@@ -3,6 +3,8 @@
     <string name="title_activity_monlau">monlau</string>
 
     <string name="action_addPhrase">Pet Locator App</string>
+    <string name="nuevo">nuevo</string>
+    <string name="nuevoDos">nuevoDos</string>
 
 
 </resources>

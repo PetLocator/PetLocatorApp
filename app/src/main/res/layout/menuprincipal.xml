@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menuprincipal"
+        >
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_heightPercent="32%"
+            app:layout_widthPercent="45%"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginTopPercent="40%"
+            android:alpha="0"
+            android:id="@+id/registrar"
+            android:onClick="irRegistro" />
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_heightPercent="33%"
+            app:layout_widthPercent="45%"
+            app:layout_marginLeftPercent="57%"
+            app:layout_marginTopPercent="38%"
+            android:alpha="0"
+            android:id="@+id/rastrear"
+            android:onClick="irRastrear" />
+
+
+    </android.support.percent.PercentRelativeLayout>
+</RelativeLayout>

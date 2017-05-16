@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="MenuOpcion1" type="id">Opcion1</item>
+    <item name="MenuOpcion2" type="id">Opcion2</item>
+    <item name="MenuOpcion3" type="id">Opcion3</item>
+</resources>

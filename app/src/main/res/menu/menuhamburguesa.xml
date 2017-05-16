@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@id/MenuOpcion1"
+        android:icon="@drawable/icmensajegris"
+        android:title="Opcion1"
+        >
+
+    </item>
+    <item
+        android:id="@id/MenuOpcion2"
+        android:title="Pagina Web"/>
+    <item
+        android:id="@id/MenuOpcion3"
+        android:title="Opcion3"/>
+
+</menu>
